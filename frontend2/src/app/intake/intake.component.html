@@ -1,0 +1,8 @@
+<p> Update your food intake </p>
+
+<select id="foodItem" [(ngModel)]="selected_item">
+        <option *ngFor="let item of food_items" [value]="item.name">{{ item.name }},
+                {{ item.calories }} Cal
+        </option>
+</select>
+<button (click)="onFoodIntakeUpdate()"> Submit </button>

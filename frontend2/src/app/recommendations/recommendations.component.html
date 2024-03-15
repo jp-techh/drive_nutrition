@@ -1,0 +1,15 @@
+
+<br>
+Today's intake: {{actual_intake}}/{{expected_intake}}
+
+<p>recommended items for you </p>
+
+<ul>
+    <li *ngFor="let a of recommended_items; let index = index">  
+        
+        Item: {{a.name}} <br> 
+        <img style="width: 100px; height: 100px" src="./assets/{{a.name}}.jpg"/>
+        <br>
+        Calories: {{a.calories}} <br> <br> 
+    </li>
+</ul>

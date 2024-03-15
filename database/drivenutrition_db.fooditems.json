@@ -1,0 +1,27 @@
+[{
+  "_id": {
+    "$oid": "65f1c5cab3b9986fe7590f0e"
+  },
+  "id": 1,
+  "name": "idly",
+  "calories": 200,
+  "category": "veg"
+},
+{
+  "_id": {
+    "$oid": "65f1c7e6b3b9986fe7590f13"
+  },
+  "id": 2,
+  "name": "rice",
+  "calories": 500,
+  "category": "veg"
+},
+{
+  "_id": {
+    "$oid": "65f1ca67b3b9986fe7590f18"
+  },
+  "id": 3,
+  "name": "chicken",
+  "calories": 500,
+  "category": "non-veg"
+}]

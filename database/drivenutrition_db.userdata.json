@@ -1,0 +1,10 @@
+[{
+  "_id": {
+    "$oid": "65f44c4fceba2f2a6dffeb9c"
+  },
+  "user": "jogi",
+  "item_name": "chicken",
+  "calories": 500,
+  "date": "15/03/2024",
+  "_class": "com.drivenutrition.spring.security.mongodb.models.UserData"
+}]

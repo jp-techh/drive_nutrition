@@ -1,0 +1,15 @@
+[{
+  "_id": {
+    "$oid": "65f44b3dceba2f2a6dffeb9b"
+  },
+  "username": "jogi",
+  "email": "joge@gmail.com",
+  "password": "$2a$10$uy6S4fw6skOAP5fd4PfV1uGV2a/MfV1sGk/8y2udFC.DZad35nXsC",
+  "roles": [],
+  "age": 23,
+  "height": 155,
+  "weight": 63,
+  "gender": "male",
+  "diet": "vegetarian",
+  "_class": "com.drivenutrition.spring.security.mongodb.models.User"
+}]

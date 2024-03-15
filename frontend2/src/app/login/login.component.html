@@ -1,0 +1,16 @@
+
+<form #signinForm="ngForm" (ngSubmit)="loginUser(signinForm)">
+    <label for="username">Username</label>
+    <input type="text" name="username" id="username" ngModel>
+    <br>
+
+    <label for="password">Password</label>
+    <input type="password" name="password" id="password" ngModel>
+    
+    <br>
+    <button type="submit">Sign In</button>
+</form>
+
+<br>
+<button (click)="onSignup()"> Signup </button> 
+
