@@ -15,7 +15,8 @@ open cmd and cd into project backend folder and run  "mvn spring-boot:run"
 //To Run frontend
 1. download and install node.js
 2. open cmd prompt
-2. run "npm install -g typescript"
-3. run "npm install -g @angular/cli"
-4. cd into frontend code
-5. run "ng serve"
+3. run "npm install -g typescript"
+4. run "npm install -g @angular/cli"
+5. cd into frontend code
+6. run "npm install"
+7. run "ng serve"
