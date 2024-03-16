@@ -1,27 +1,333 @@
 [{
   "_id": {
-    "$oid": "65f1c5cab3b9986fe7590f0e"
+    "$oid": "65f5f639c7a248dfa3eaa642"
   },
   "id": 1,
-  "name": "idly",
+  "name": "Idli",
+  "calories": 300,
+  "category": "veg"
+},
+{
+  "_id": {
+    "$oid": "65f5f639c7a248dfa3eaa643"
+  },
+  "id": 2,
+  "name": "Dosa",
+  "calories": 350,
+  "category": "veg"
+},
+{
+  "_id": {
+    "$oid": "65f5f639c7a248dfa3eaa644"
+  },
+  "id": 3,
+  "name": "Vada",
+  "calories": 250,
+  "category": "veg"
+},
+{
+  "_id": {
+    "$oid": "65f5f639c7a248dfa3eaa645"
+  },
+  "id": 4,
+  "name": "Pongal",
+  "calories": 400,
+  "category": "veg"
+},
+{
+  "_id": {
+    "$oid": "65f5f639c7a248dfa3eaa646"
+  },
+  "id": 5,
+  "name": "Bisi Bele Bath",
+  "calories": 450,
+  "category": "veg"
+},
+{
+  "_id": {
+    "$oid": "65f5f639c7a248dfa3eaa647"
+  },
+  "id": 6,
+  "name": "Rasam",
+  "calories": 100,
+  "category": "veg"
+},
+{
+  "_id": {
+    "$oid": "65f5f639c7a248dfa3eaa648"
+  },
+  "id": 7,
+  "name": "Sambar",
   "calories": 200,
   "category": "veg"
 },
 {
   "_id": {
-    "$oid": "65f1c7e6b3b9986fe7590f13"
+    "$oid": "65f5f639c7a248dfa3eaa649"
   },
-  "id": 2,
-  "name": "rice",
-  "calories": 500,
+  "id": 8,
+  "name": "Chicken Biryani",
+  "calories": 600,
+  "category": "non-veg"
+},
+{
+  "_id": {
+    "$oid": "65f5f639c7a248dfa3eaa64a"
+  },
+  "id": 9,
+  "name": "Fish Curry",
+  "calories": 400,
+  "category": "non-veg"
+},
+{
+  "_id": {
+    "$oid": "65f5f639c7a248dfa3eaa64b"
+  },
+  "id": 10,
+  "name": "Mutton Chukka",
+  "calories": 550,
+  "category": "non-veg"
+},
+{
+  "_id": {
+    "$oid": "65f5f639c7a248dfa3eaa64c"
+  },
+  "id": 11,
+  "name": "Prawn Masala",
+  "calories": 300,
+  "category": "non-veg"
+},
+{
+  "_id": {
+    "$oid": "65f5f639c7a248dfa3eaa64d"
+  },
+  "id": 12,
+  "name": "Hyderabadi Biryani",
+  "calories": 700,
+  "category": "non-veg"
+},
+{
+  "_id": {
+    "$oid": "65f5f639c7a248dfa3eaa64e"
+  },
+  "id": 13,
+  "name": "Appam",
+  "calories": 250,
   "category": "veg"
 },
 {
   "_id": {
-    "$oid": "65f1ca67b3b9986fe7590f18"
+    "$oid": "65f5f639c7a248dfa3eaa64f"
   },
-  "id": 3,
-  "name": "chicken",
-  "calories": 500,
+  "id": 14,
+  "name": "Avial",
+  "calories": 180,
+  "category": "veg"
+},
+{
+  "_id": {
+    "$oid": "65f5f639c7a248dfa3eaa650"
+  },
+  "id": 15,
+  "name": "Puttu",
+  "calories": 220,
+  "category": "veg"
+},
+{
+  "_id": {
+    "$oid": "65f5f639c7a248dfa3eaa651"
+  },
+  "id": 16,
+  "name": "Kozhukattai",
+  "calories": 280,
+  "category": "veg"
+},
+{
+  "_id": {
+    "$oid": "65f5f639c7a248dfa3eaa652"
+  },
+  "id": 17,
+  "name": "Uthappam",
+  "calories": 320,
+  "category": "veg"
+},
+{
+  "_id": {
+    "$oid": "65f5f639c7a248dfa3eaa653"
+  },
+  "id": 18,
+  "name": "Kerala Parotta",
+  "calories": 400,
+  "category": "veg"
+},
+{
+  "_id": {
+    "$oid": "65f5f812c7a248dfa3eaa659"
+  },
+  "id": 19,
+  "name": "Amritsari Chole Bhature",
+  "calories": 400,
+  "category": "veg"
+},
+{
+  "_id": {
+    "$oid": "65f5f812c7a248dfa3eaa65a"
+  },
+  "id": 20,
+  "name": "Kashmiri Rogan Josh",
+  "calories": 450,
   "category": "non-veg"
+},
+{
+  "_id": {
+    "$oid": "65f5f812c7a248dfa3eaa65b"
+  },
+  "id": 21,
+  "name": "Rajasthani Dal-Bati Churma",
+  "calories": 550,
+  "category": "veg"
+},
+{
+  "_id": {
+    "$oid": "65f5f812c7a248dfa3eaa65c"
+  },
+  "id": 22,
+  "name": "Dilli ki Chaat",
+  "calories": 300,
+  "category": "veg"
+},
+{
+  "_id": {
+    "$oid": "65f5f812c7a248dfa3eaa65d"
+  },
+  "id": 23,
+  "name": "Makki ki Roti with Sarson ka Saag",
+  "calories": 350,
+  "category": "veg"
+},
+{
+  "_id": {
+    "$oid": "65f5f812c7a248dfa3eaa65e"
+  },
+  "id": 24,
+  "name": "Chaulai ki Saag",
+  "calories": 280,
+  "category": "veg"
+},
+{
+  "_id": {
+    "$oid": "65f5f812c7a248dfa3eaa65f"
+  },
+  "id": 25,
+  "name": "Kanji (made from black carrots)",
+  "calories": 100,
+  "category": "veg"
+},
+{
+  "_id": {
+    "$oid": "65f5f812c7a248dfa3eaa660"
+  },
+  "id": 26,
+  "name": "Arbi ki Sabji",
+  "calories": 180,
+  "category": "veg"
+},
+{
+  "_id": {
+    "$oid": "65f5f812c7a248dfa3eaa661"
+  },
+  "id": 27,
+  "name": "Gajar ka Halwa",
+  "calories": 250,
+  "category": "veg"
+},
+{
+  "_id": {
+    "$oid": "65f5f812c7a248dfa3eaa662"
+  },
+  "id": 28,
+  "name": "Malpua with Rabdi",
+  "calories": 200,
+  "category": "veg"
+},
+{
+  "_id": {
+    "$oid": "65f5f812c7a248dfa3eaa663"
+  },
+  "id": 29,
+  "name": "Makhan Malai",
+  "calories": 150,
+  "category": "veg"
+},
+{
+  "_id": {
+    "$oid": "65f5f812c7a248dfa3eaa664"
+  },
+  "id": 30,
+  "name": "Kesar Flavoured Phirni",
+  "calories": 220,
+  "category": "veg"
+},
+{
+  "_id": {
+    "$oid": "65f5f812c7a248dfa3eaa665"
+  },
+  "id": 31,
+  "name": "Burfis",
+  "calories": 200,
+  "category": "veg"
+},
+{
+  "_id": {
+    "$oid": "65f5f812c7a248dfa3eaa666"
+  },
+  "id": 32,
+  "name": "Kadai Paneer",
+  "calories": 300,
+  "category": "veg"
+},
+{
+  "_id": {
+    "$oid": "65f5f812c7a248dfa3eaa667"
+  },
+  "id": 33,
+  "name": "Rajma",
+  "calories": 250,
+  "category": "veg"
+},
+{
+  "_id": {
+    "$oid": "65f5f812c7a248dfa3eaa668"
+  },
+  "id": 34,
+  "name": "Dal Makhani",
+  "calories": 400,
+  "category": "veg"
+},
+{
+  "_id": {
+    "$oid": "65f5f812c7a248dfa3eaa669"
+  },
+  "id": 35,
+  "name": "Dal Tadka",
+  "calories": 320,
+  "category": "veg"
+},
+{
+  "_id": {
+    "$oid": "65f5f812c7a248dfa3eaa66a"
+  },
+  "id": 36,
+  "name": "Dal Fry",
+  "calories": 280,
+  "category": "veg"
+},
+{
+  "_id": {
+    "$oid": "65f5f812c7a248dfa3eaa66b"
+  },
+  "id": 37,
+  "name": "Chole Bhature",
+  "calories": 450,
+  "category": "veg"
 }]
