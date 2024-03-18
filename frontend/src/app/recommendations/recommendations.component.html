@@ -1,15 +1,24 @@
+<body>
 
-<br>
-Today's intake: {{actual_intake}}/{{expected_intake}}
+    
+    Today's intake: {{actual_intake}}/{{expected_intake}}
+    <p>recommended items for you </p>
+    <mat-grid-list cols="4" >
+        <mat-grid-tile *ngFor="let a of recommended_items; let index = index">
 
-<p>recommended items for you </p>
-
-<ul>
-    <li *ngFor="let a of recommended_items; let index = index">  
-        
-        Item: {{a.name}} <br> 
-        <img style="width: 100px; height: 100px" src="./assets/{{a.name}}.jpg"/>
-        <br>
-        Calories: {{a.calories}} <br> <br> 
-    </li>
-</ul>
+            <mat-card class="card-login">
+                <mat-card-header>
+                    <mat-card-title>
+                        Item: {{a.name}}
+                    </mat-card-title>
+                    <mat-card-subtitle>
+                        Calories: {{a.calories}}
+                    </mat-card-subtitle>
+                </mat-card-header>
+                <mat-card-content>
+                    <img style="width: 300px; height: 300px" src="./assets/{{a.name}}.jpg" />
+                </mat-card-content>
+            </mat-card>
+        </mat-grid-tile>
+    </mat-grid-list>
+</body>

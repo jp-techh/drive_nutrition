@@ -3,11 +3,17 @@ import { CommonModule } from '@angular/common';
 import { HttpClient } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { GlobalService } from '../services/global.service';
+import {MatCardModule} from '@angular/material/card';
+import {MatGridListModule} from '@angular/material/grid-list';
+import {MatInputModule} from '@angular/material/input';
+import {MatFormFieldModule} from '@angular/material/form-field';
+import {MatButton} from '@angular/material/button'
+import {MatSelectModule} from '@angular/material/select';
 
 @Component({
   selector: 'app-intake',
   standalone: true,
-  imports: [CommonModule, FormsModule],
+  imports: [CommonModule, FormsModule,  MatCardModule, MatGridListModule, MatFormFieldModule, MatInputModule, MatButton, MatSelectModule],
   templateUrl: './intake.component.html',
   styleUrl: './intake.component.css'
 })

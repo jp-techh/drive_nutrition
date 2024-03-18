@@ -1,16 +1,26 @@
+<body>
+    <mat-grid-list cols="1" rowHeight="90%">
+        <mat-grid-tile>
+            <mat-card class="card-login">
+                <mat-card-content>
+                    <form #signinForm="ngForm" (ngSubmit)="loginUser(signinForm)">
 
-<form #signinForm="ngForm" (ngSubmit)="loginUser(signinForm)">
-    <label for="username">Username</label>
-    <input type="text" name="username" id="username" ngModel>
-    <br>
+                        <mat-form-field class="example-full-width">
+                            <mat-label> Username </mat-label>
+                            <input matInput name="username" id="username" ngModel>
+                        </mat-form-field>
 
-    <label for="password">Password</label>
-    <input type="password" name="password" id="password" ngModel>
-    
-    <br>
-    <button type="submit">Sign In</button>
-</form>
+                        <mat-form-field class="example-full-width">
+                            <mat-label> Password</mat-label>
+                            <input matInput type="password" name="password" id="password" ngModel>
+                        </mat-form-field>
 
-<br>
-<button (click)="onSignup()"> Signup </button> 
-
+                        <br>
+                        <button mat-raised-button type="submit">Sign In</button>
+                        <button style="float: right" mat-raised-button (click)="onSignup()"> Signup </button>
+                    </form>
+                </mat-card-content>
+            </mat-card>
+        </mat-grid-tile>
+    </mat-grid-list>
+</body>

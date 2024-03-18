@@ -2,11 +2,16 @@ import { Component } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { GlobalService } from '../services/global.service';
 import { CommonModule } from '@angular/common';
+import {MatCardModule} from '@angular/material/card';
+import {MatGridListModule} from '@angular/material/grid-list';
+import {MatInputModule} from '@angular/material/input';
+import {MatFormFieldModule} from '@angular/material/form-field';
+import {MatButton} from '@angular/material/button'
 
 @Component({
   selector: 'app-recommendations',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule,  MatCardModule, MatGridListModule, MatFormFieldModule, MatInputModule, MatButton],
   templateUrl: './recommendations.component.html',
   styleUrl: './recommendations.component.css'
 })

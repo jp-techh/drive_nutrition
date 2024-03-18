@@ -1,8 +1,19 @@
-<p> Update your food intake </p>
+<mat-grid-list cols="5" rowHeight="90%">
+        <mat-grid-tile>
+                <mat-card class="card-login">
+                        <mat-card-content>
+                                <p> Update your food intake </p>
 
-<select id="foodItem" [(ngModel)]="selected_item">
-        <option *ngFor="let item of food_items" [value]="item.name">{{ item.name }},
-                {{ item.calories }} Cal
-        </option>
-</select>
-<button (click)="onFoodIntakeUpdate()"> Submit </button>
+                                <select matInput id="foodItem" [(ngModel)]="selected_item">
+                                        <option *ngFor="let item of food_items" [value]="item.name">{{ item.name
+                                                }},
+                                                {{ item.calories }} Cal
+                                        </option>
+                                </select>
+
+
+                                <button mat-raised-button (click)="onFoodIntakeUpdate()"> Submit </button>
+                        </mat-card-content>
+                </mat-card>
+        </mat-grid-tile>
+</mat-grid-list>

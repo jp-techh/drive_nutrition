@@ -3,11 +3,16 @@ import { Router } from '@angular/router';
 import { NgForm } from '@angular/forms';
 import { FormsModule }   from '@angular/forms';
 import { HttpClient } from '@angular/common/http';
+import {MatCardModule} from '@angular/material/card';
+import {MatGridListModule} from '@angular/material/grid-list';
+import {MatInputModule} from '@angular/material/input';
+import {MatFormFieldModule} from '@angular/material/form-field';
+import {MatButton} from '@angular/material/button'
 
 @Component({
   selector: 'app-signup',
   standalone: true,
-  imports: [FormsModule],
+  imports: [FormsModule, MatCardModule, MatGridListModule, MatFormFieldModule, MatInputModule, MatButton],
   templateUrl: './signup.component.html',
   styleUrl: './signup.component.css'
 })

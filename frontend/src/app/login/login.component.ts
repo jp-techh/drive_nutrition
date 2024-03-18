@@ -4,11 +4,16 @@ import { FormsModule }   from '@angular/forms';
 import { HttpClient } from '@angular/common/http';
 import { Router } from '@angular/router';
 import { GlobalService } from '../services/global.service';
+import {MatCardModule} from '@angular/material/card';
+import {MatGridListModule} from '@angular/material/grid-list';
+import {MatInputModule} from '@angular/material/input';
+import {MatFormFieldModule} from '@angular/material/form-field';
+import {MatButton} from '@angular/material/button'
 
 @Component({
   selector: 'app-login',
   standalone: true,
-  imports: [FormsModule ],
+  imports: [FormsModule, MatCardModule, MatGridListModule, MatFormFieldModule, MatInputModule, MatButton],
   templateUrl: './login.component.html',
   styleUrl: './login.component.css'
 })
